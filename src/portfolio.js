@@ -1,5 +1,4 @@
 const header = {
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
   title: 'Jie Zou',
 }
 

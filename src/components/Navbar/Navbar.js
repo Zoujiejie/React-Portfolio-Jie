@@ -31,18 +31,6 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {skills.length ? (
-          <li className='nav__list-item'>
-            <a
-              href='#skills'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              Skills
-            </a>
-          </li>
-        ) : null}
-
         {contact.email ? (
           <li className='nav__list-item'>
             <a
