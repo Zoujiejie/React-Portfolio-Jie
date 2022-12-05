@@ -1,96 +1,46 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
-
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
-  title: 'JS.',
+  title: 'Jie Zou',
 }
 
 const about = {
-  photo:aboutpic,
-  // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
+  name: 'Jie Zou',
   role: 'Full stack developer',
   description:
-    'UW and SMU bootcamp student living in Seattle,Washington. highly interested in cutting edge technology, web development and Java back end development.',
-  resume: 'https://drive.google.com/drive/folders/12MP3uHk94Ew6_egSJqgxbvycI60gHfXA?usp=sharing',
+    'Currently working for YouTube, as a programming specialist, under Film and TV licensing tea. Prior to YouTube, I worked as a marketing coordinator for NBCUniversal Media. Now I am a full stack coding boot camp student at UC Berkeley Extension, seeking for Software Developer opportunities in the Entertainment field',
+  resume: 'https://docs.google.com/document/d/177s4Pk5nTXU2w4_NLDtLg-MiVkeKodwB/edit?usp=sharing&ouid=109302522950693610460&rtpof=true&sd=true',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/jie-zou-2779ab161/',
+    github: 'https://github.com/Zoujiejie',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Movie Tracker',
+    name: 'Wish List',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
-    sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
+      'This is a full stack application that implements a wish list or a gift registry for an event. Through an easy to use interface, a user can register with the app, create any number of registries. The user can manage the registries they own by adding, updating or removing products. The registries are also visible to any visitor to the page or a guest to an event to look up items to fulfill.',
+    sourceCode: 'https://github.com/AJManzione/wish-list',
+    livePreview: 'https://wish-list-maker.herokuapp.com/',
   },
   {
-    name: 'Event Planner',
+    name: 'Media Munch',
     description:
-      'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
+      'Media Munch is a personal media watch/read list. Users have the ability to search a title and will get results for movies and books. Along with the title, they will also get information about the authors and directors, the year it was released, and the genre of the media. Users can see their recent searches, and also have the ability to add items to a favorite list.',
+    sourceCode: 'https://github.com/overtonr/project1-media-munch',
+    livePreview: 'https://overtonr.github.io/project1-media-munch/',
   },
   {
-    name: 'Resource Planner',
+    name: 'Note Taker',
     description:
-      'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
-    livePreview: 'https://resource-planner-group2.herokuapp.com/',
+      'This is an application that you can use to take, edit and delete notes.',
+    sourceCode: 'https://github.com/Zoujiejie/Note-Taker-Express.js ',
+    livePreview: 'https://note-taker-zoujie.herokuapp.com/ ',
   },
-  {
-    name: 'GameStoreData(back end)',
-    description:
-      'GameStoreData is able to let user retrieve the game from database based on its year and category',
-    stack: ['Java 8', 'MySQL', 'React'],
-    sourceCode: 'https://github.com/stone-com/Resource-Planner',
-    
-  },
-  {
-    name: 'Music Store(back end)',
-    description:
-      'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
-    livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
-  },
-]
-
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'Express',
-  'MySQL',
-  'MongoDB',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'MERN',
-  'Java 8',
-  'Java Spring Boot',
-  'Microservices',
-  'Docker',
-  'Heroku'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'jz3134@columbia.edu',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, contact }
