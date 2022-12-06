@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio-Jie/static/css/main.2e73e9d6.css",
+    "main.js": "/React-Portfolio-Jie/static/js/main.1e6f92fa.js",
+    "index.html": "/React-Portfolio-Jie/index.html",
+    "main.2e73e9d6.css.map": "/React-Portfolio-Jie/static/css/main.2e73e9d6.css.map",
+    "main.1e6f92fa.js.map": "/React-Portfolio-Jie/static/js/main.1e6f92fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e73e9d6.css",
+    "static/js/main.1e6f92fa.js"
+  ]
+}
