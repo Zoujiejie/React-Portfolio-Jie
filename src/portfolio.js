@@ -18,7 +18,7 @@ const projects = [
   {
     name: 'Wish List',
     description:
-      'This is a full stack application that implements a wish list or a gift registry for an event. Through an easy to use interface, a user can register with the app, create any number of registries. The user can manage the registries they own by adding, updating or removing products. The registries are also visible to any visitor to the page or a guest to an event to look up items to fulfill.',
+      'Wish List is a full stack application that implements a wish list or a gift registry for an event. Through an easy to use interface, a user can register with the app, create any number of registries. The user can manage the registries they own by adding, updating or removing products. The registries are also visible to any visitor to the page or a guest to an event to look up items to fulfill.',
     sourceCode: 'https://github.com/AJManzione/wish-list',
     livePreview: 'https://wish-list-maker.herokuapp.com/',
   },
@@ -30,11 +30,11 @@ const projects = [
     livePreview: 'https://overtonr.github.io/project1-media-munch/',
   },
   {
-    name: 'Note Taker',
+    name: 'FlipaQ',
     description:
-      'This is an application that you can use to take, edit and delete notes.',
-    sourceCode: 'https://github.com/Zoujiejie/Note-Taker-Express.js ',
-    livePreview: 'https://note-taker-zoujie.herokuapp.com/ ',
+      'FilpaQ is a study app that is used to create and review "flashcards". I works similar to physical flash cards. A question is displayed on screen and the user answers it. Then with the press of a button the correct answer appears. User create their own flashcards using the webpage interface. The flashcards are saved to their user account.',
+    sourceCode: 'https://github.com/Ginalguerrero/flipaQ',
+    livePreview: 'https://flipaq-app.herokuapp.com/',
   },
 ]
 
