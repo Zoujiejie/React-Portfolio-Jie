@@ -4,9 +4,9 @@ const header = {
 
 const about = {
   name: 'Jie Zou',
-  role: 'Full stack developer',
+  role: 'Full Stack Developer & A Marketing Specialist ',
   description:
-    'Currently working for YouTube, as a programming specialist, under Film and TV licensing team. Prior to YouTube, I worked as a marketing coordinator for NBCUniversal Media. I recently graduated from UC Berkeley Extension as a full stack coding boot camp student, and I am now seeking for Software Developer and Data Analyst opportunities in the Entertainment field',
+    'I currently work as a programming specialist for the Film and TV licensing team at YouTube. Prior to YouTube, I worked as a marketing coordinator for NBCUniversal Media. During my 3 years of profesional experence, I have realized how data can play a strong part in content distribution and monetization strategy. Therefore, I enrolled and completed the coding boot camp at UC Berkeley Extension last year, where I learned multiple programming languages and data tools such as Javascript, SQL, MongoDB, etc. I am now seeking for new opportunities that can combine my marketing experience with the data skill set I have built.',
   resume: 'https://docs.google.com/document/d/177s4Pk5nTXU2w4_NLDtLg-MiVkeKodwB/edit?usp=sharing&ouid=109302522950693610460&rtpof=true&sd=true',
   social: {
     linkedin: 'https://www.linkedin.com/in/jie-zou-2779ab161/',
